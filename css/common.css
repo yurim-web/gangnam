@@ -16,9 +16,12 @@ body {
 
 main {
   width: 100%;
-  padding: 10px 15px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+section {
+  padding: 10px 15px;
+  width: 100%;
 }
 .line {
   background-color: #d6d6d6;
