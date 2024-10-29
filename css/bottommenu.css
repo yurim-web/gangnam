@@ -1,6 +1,6 @@
 .bottom_menu {
   width: 100vw;
-  height: 70px;
+  height: 75px;
   background-color: white;
   box-shadow: 0px -3px 2px 1px rgba(135, 135, 135, 0.55);
   -webkit-box-shadow: 0px -3px 2px 1px rgba(135, 135, 135, 0.55);
@@ -11,11 +11,13 @@
 
   margin: 0 auto;
   max-width: 768px;
+  cursor: pointer;
 
   position: fixed;
   bottom: 0px;
   z-index: 1;
 }
+
 .bottom_menu > ul {
   width: 100%;
   display: grid;
@@ -25,6 +27,10 @@
   padding: 10px;
 }
 
-.inner > i {
+.inner > a {
+  font-size: 20px;
+}
+
+.hospital > a {
   font-size: 20px;
 }
