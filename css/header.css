@@ -1,0 +1,33 @@
+header {
+  /* padding: 15px 5px 5px 0px; */
+  width: 100vw;
+  height: 60px;
+  margin: 0 auto;
+
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  padding: 15px 8px 15px 8px;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  max-width: 768px;
+  display: fixed;
+}
+.header > img {
+  height: 20px;
+  object-fit: contain;
+}
+
+.header > button {
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 6px 14px;
+  background-color: white;
+  border: 1px solid grey;
+}
